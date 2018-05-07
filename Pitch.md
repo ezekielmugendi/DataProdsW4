@@ -38,4 +38,6 @@ Since we know the the true number of classes, it is didactic to show what happen
 Thanks
 ========================================================
 
-![plot of chunk unnamed-chunk-3](Pitch-figure/unnamed-chunk-3-1.png)
+Source 
+
+https://github.com/sifogrante/DataProdsW4
