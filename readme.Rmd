@@ -1,0 +1,20 @@
+---
+title: "Selecting number of Clusters"
+author: "Pablo Rodriguez Chavez"
+date: "May 6, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+This simple app shows us the effect of chosing the wrong number of clusters in the performance of the k-means algorithm. 
+
+## How to Use
+
+Move the slider to choose the number of clusters.
+K-means will run with the selected number of clusters and a scatter plot will appear.
+The plot at the bottom is using the real labels for comparison. 

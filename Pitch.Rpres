@@ -1,0 +1,39 @@
+K-means App Pitch
+========================================================
+author: Pablo Rodriguez
+date: May 6, 2018
+autosize: true
+
+Intro
+========================================================
+
+When using K-Means we must specify the number of clusters
+
+This small app shows the effect on the mispecification.
+
+
+The data
+========================================================
+
+In order to show the effect of mispecifying the number of clusters we use the classical Iris dataset
+```{r, echo=TRUE}
+data(iris)
+table(iris$Species)
+```
+
+Why is it useful?
+========================================================
+
+Since we know the the true number of classes, it is didactic to show what happens when we mispecify it. We chose the following dimensions since they show a clear separation of the true classes.
+
+```{r, echo=FALSE, fig.align='center'}
+library(ggplot2)
+ggplot(data=iris)+geom_point(aes(x=Sepal.Width, y=Petal.Width,color=Species))
+```
+
+Thanks
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```

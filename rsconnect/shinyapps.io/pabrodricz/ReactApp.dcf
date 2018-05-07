@@ -1,0 +1,12 @@
+name: ReactApp
+title: ReactApp
+username:
+account: pabrodricz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 338407
+bundleId: 1359368
+url: https://pabrodricz.shinyapps.io/ReactApp/
+when: 1525662384.91754
+asMultiple: FALSE
+asStatic: FALSE
